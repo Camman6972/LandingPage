@@ -1,0 +1,44 @@
+* {
+    background-color: #1f2937;
+}
+
+.Section1 {
+    display: flex;
+}
+
+.Section1 h1 {
+    display: flex;
+    height: 100px;
+    flex: 1 1 auto;
+    align-items: top;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Section1 div {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.Section1 .one1 {
+    display: flex;
+    flex: 200 0 0%;
+    width: 200px;
+}
+
+.Section1 .two1 .three1 .four1 {
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+a {
+    color:#f9faf8;
+    text-decoration: none;
+}
+
