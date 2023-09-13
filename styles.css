@@ -24,7 +24,6 @@
 .Section1 .one1 {
     display: flex;
     flex: 200 0 0%;
-    width: 200px;
 }
 
 .Section1 .two1 .three1 .four1 {
@@ -33,12 +32,40 @@
 }
 
 h1 {
-    font-family:'Times New Roman', Times, serif;
     font-style: bold;
 }
 
-a {
+.header {
     color:#f9faf8;
     text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.toptext {
+    color: #f9faf8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subSection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 300px;
+}
+
+#button1 {
+    font-size: 18px;
+    font-weight: bold;
+    border: #3882f6;
+    background-color: #3882f6;
+    cursor: pointer;
+    border-radius: 25px;
+}
