@@ -31,6 +31,11 @@
     justify-content: right;
 }
 
+.Image1 {
+    border: 8px solid#3882f6;
+    border-radius: 25%;
+}
+
 h1 {
     font-style: bold;
 }
@@ -51,6 +56,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    padding: 100px;
 }
 
 .subSection2 {
@@ -68,4 +74,61 @@ h1 {
     background-color: #3882f6;
     cursor: pointer;
     border-radius: 25px;
+}
+
+
+.Section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+}
+
+.SubSection3one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9faf8;
+}
+
+.SubSection3two {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9faf8;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    aspect-ratio: 1/2;
+    background-color: #f9faf8;
+    border: 8px solid#3882f6;
+    border-radius: 25%;
+}
+
+.SubSection3three {
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9faf8;
+}
+
+.BlackOnWhiteText {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9faf8;
+}
+
+.BlackOnWhiteText2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9faf8;
+}
+
+#center1 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
