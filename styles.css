@@ -132,3 +132,33 @@ h1 {
  align-items: center;
  justify-content: center;
 }
+
+.Section4 {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#QuoteText {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+#QuoteQuote {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    font-weight: bold;
+    right: 0;
+    font-size: 20px;
+}
+
+#BobGallery {
+    font-size: 36px;
+    font-weight: bolder;
+}
