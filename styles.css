@@ -136,8 +136,10 @@ h1 {
 .Section4 {
     display: flex;
     background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -147,6 +149,15 @@ h1 {
     font-style: italic;
     align-items: center;
     justify-content: center;
+}
+
+.subSection5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 300px;
+    background-color: #3882f6;
 }
 
 #QuoteQuote {
@@ -161,4 +172,49 @@ h1 {
 #BobGallery {
     font-size: 36px;
     font-weight: bolder;
+}
+
+.Section5outline {
+    background-color: #f9faf8;
+    padding: 50px;
+}
+
+.Section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.SignUp {
+    background-color: #3882f6;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#f9faf8;
+}
+
+.SignUp2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #3882f6;
+}
+
+#button2 {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.Section6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
